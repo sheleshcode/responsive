@@ -1,0 +1,89 @@
+*{
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 2vw;
+}
+body{
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 10px;
+}
+.header{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    background: #ff9966;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+ul{
+    padding-left: 20%;
+}
+li{
+    float: left;
+    padding: 30px;
+    list-style: none;
+
+}
+li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    display: block;
+    
+}
+li a:hover{
+    color: aqua;
+}
+.feature{
+    width: 33.33%;
+    float: left;
+    
+}
+
+.Feature_2 img{
+    height: 240px;
+    width: 100%;
+}
+.feature_detail{
+    font-size: 20px;
+    padding: 5px;
+  
+
+}
+.feature img{
+    max-width: 70%;
+    border-radius: 8px;
+}
+.follow {
+    width: 50%;
+    margin: auto;
+}
+.follow img{
+    height: 4vw;
+}
+
+@media screen and (max-width:600px) {
+    .feature {
+      width: 100%;
+    }
+    .feature img{
+        padding-left: 20px;
+        width: 100%;
+    }
+    .feature_detail{
+        padding: 20px;
+    }
+    .follow{
+        width: 100%;
+    }
+    .nav_menu li{
+        
+        padding:5px ;
+    }
+    
+  }
